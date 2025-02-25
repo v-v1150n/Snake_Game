@@ -14,6 +14,10 @@
 		444D04DE2D6D7B4600DB0723 /* mamba1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D04DD2D6D7B4600DB0723 /* mamba1Tests.swift */; };
 		444D04E82D6D7B4600DB0723 /* mamba1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D04E72D6D7B4600DB0723 /* mamba1UITests.swift */; };
 		444D04EA2D6D7B4600DB0723 /* mamba1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D04E92D6D7B4600DB0723 /* mamba1UITestsLaunchTests.swift */; };
+		444D04F72D6D7CBE00DB0723 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D04F62D6D7CBE00DB0723 /* SoundManager.swift */; };
+		444D04FA2D6D805A00DB0723 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 444D04F82D6D805A00DB0723 /* gameover.mp3 */; };
+		444D04FB2D6D805A00DB0723 /* eat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 444D04F92D6D805A00DB0723 /* eat.mp3 */; };
+		444D04FD2D6D851600DB0723 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444D04FC2D6D851600DB0723 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		444D04C92D6D7B4400DB0723 /* mamba1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mamba1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		444D04C92D6D7B4400DB0723 /* snake1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snake1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		444D04CC2D6D7B4400DB0723 /* mamba1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamba1App.swift; sourceTree = "<group>"; };
 		444D04CE2D6D7B4400DB0723 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		444D04D02D6D7B4600DB0723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444D04D32D6D7B4600DB0723 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		444D04D92D6D7B4600DB0723 /* mamba1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mamba1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444D04D92D6D7B4600DB0723 /* snake1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snake1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444D04DD2D6D7B4600DB0723 /* mamba1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamba1Tests.swift; sourceTree = "<group>"; };
-		444D04E32D6D7B4600DB0723 /* mamba1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mamba1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		444D04E32D6D7B4600DB0723 /* snake1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snake1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444D04E72D6D7B4600DB0723 /* mamba1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamba1UITests.swift; sourceTree = "<group>"; };
 		444D04E92D6D7B4600DB0723 /* mamba1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mamba1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		444D04F62D6D7CBE00DB0723 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		444D04F82D6D805A00DB0723 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = SOURCE_ROOT; };
+		444D04F92D6D805A00DB0723 /* eat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eat.mp3; sourceTree = SOURCE_ROOT; };
+		444D04FC2D6D851600DB0723 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +92,9 @@
 		444D04CA2D6D7B4400DB0723 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				444D04C92D6D7B4400DB0723 /* mamba1.app */,
-				444D04D92D6D7B4600DB0723 /* mamba1Tests.xctest */,
-				444D04E32D6D7B4600DB0723 /* mamba1UITests.xctest */,
+				444D04C92D6D7B4400DB0723 /* snake1.app */,
+				444D04D92D6D7B4600DB0723 /* snake1Tests.xctest */,
+				444D04E32D6D7B4600DB0723 /* snake1UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				444D04CC2D6D7B4400DB0723 /* mamba1App.swift */,
+				444D04F92D6D805A00DB0723 /* eat.mp3 */,
+				444D04F82D6D805A00DB0723 /* gameover.mp3 */,
 				444D04CE2D6D7B4400DB0723 /* ContentView.swift */,
 				444D04D02D6D7B4600DB0723 /* Assets.xcassets */,
 				444D04D22D6D7B4600DB0723 /* Preview Content */,
+				444D04F62D6D7CBE00DB0723 /* SoundManager.swift */,
+				444D04FC2D6D851600DB0723 /* MainView.swift */,
 			);
 			path = mamba1;
 			sourceTree = "<group>";
@@ -130,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		444D04C82D6D7B4400DB0723 /* mamba1 */ = {
+		444D04C82D6D7B4400DB0723 /* snake1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 444D04ED2D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "mamba1" */;
+			buildConfigurationList = 444D04ED2D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "snake1" */;
 			buildPhases = (
 				444D04C52D6D7B4400DB0723 /* Sources */,
 				444D04C62D6D7B4400DB0723 /* Frameworks */,
@@ -142,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = mamba1;
+			name = snake1;
 			productName = mamba1;
-			productReference = 444D04C92D6D7B4400DB0723 /* mamba1.app */;
+			productReference = 444D04C92D6D7B4400DB0723 /* snake1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		444D04D82D6D7B4600DB0723 /* mamba1Tests */ = {
+		444D04D82D6D7B4600DB0723 /* snake1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 444D04F02D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "mamba1Tests" */;
+			buildConfigurationList = 444D04F02D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "snake1Tests" */;
 			buildPhases = (
 				444D04D52D6D7B4600DB0723 /* Sources */,
 				444D04D62D6D7B4600DB0723 /* Frameworks */,
@@ -160,14 +172,14 @@
 			dependencies = (
 				444D04DB2D6D7B4600DB0723 /* PBXTargetDependency */,
 			);
-			name = mamba1Tests;
+			name = snake1Tests;
 			productName = mamba1Tests;
-			productReference = 444D04D92D6D7B4600DB0723 /* mamba1Tests.xctest */;
+			productReference = 444D04D92D6D7B4600DB0723 /* snake1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		444D04E22D6D7B4600DB0723 /* mamba1UITests */ = {
+		444D04E22D6D7B4600DB0723 /* snake1UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 444D04F32D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "mamba1UITests" */;
+			buildConfigurationList = 444D04F32D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "snake1UITests" */;
 			buildPhases = (
 				444D04DF2D6D7B4600DB0723 /* Sources */,
 				444D04E02D6D7B4600DB0723 /* Frameworks */,
@@ -178,9 +190,9 @@
 			dependencies = (
 				444D04E52D6D7B4600DB0723 /* PBXTargetDependency */,
 			);
-			name = mamba1UITests;
+			name = snake1UITests;
 			productName = mamba1UITests;
-			productReference = 444D04E32D6D7B4600DB0723 /* mamba1UITests.xctest */;
+			productReference = 444D04E32D6D7B4600DB0723 /* snake1UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 444D04C42D6D7B4400DB0723 /* Build configuration list for PBXProject "mamba1" */;
+			buildConfigurationList = 444D04C42D6D7B4400DB0723 /* Build configuration list for PBXProject "snake1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				444D04C82D6D7B4400DB0723 /* mamba1 */,
-				444D04D82D6D7B4600DB0723 /* mamba1Tests */,
-				444D04E22D6D7B4600DB0723 /* mamba1UITests */,
+				444D04C82D6D7B4400DB0723 /* snake1 */,
+				444D04D82D6D7B4600DB0723 /* snake1Tests */,
+				444D04E22D6D7B4600DB0723 /* snake1UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +245,8 @@
 			files = (
 				444D04D42D6D7B4600DB0723 /* Preview Assets.xcassets in Resources */,
 				444D04D12D6D7B4600DB0723 /* Assets.xcassets in Resources */,
+				444D04FA2D6D805A00DB0723 /* gameover.mp3 in Resources */,
+				444D04FB2D6D805A00DB0723 /* eat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				444D04CF2D6D7B4400DB0723 /* ContentView.swift in Sources */,
+				444D04FD2D6D851600DB0723 /* MainView.swift in Sources */,
 				444D04CD2D6D7B4400DB0723 /* mamba1App.swift in Sources */,
+				444D04F72D6D7CBE00DB0723 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		444D04DB2D6D7B4600DB0723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 444D04C82D6D7B4400DB0723 /* mamba1 */;
+			target = 444D04C82D6D7B4400DB0723 /* snake1 */;
 			targetProxy = 444D04DA2D6D7B4600DB0723 /* PBXContainerItemProxy */;
 		};
 		444D04E52D6D7B4600DB0723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 444D04C82D6D7B4400DB0723 /* mamba1 */;
+			target = 444D04C82D6D7B4400DB0723 /* snake1 */;
 			targetProxy = 444D04E42D6D7B4600DB0723 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,7 +501,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mamba1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snake1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snake1";
 			};
 			name = Debug;
 		};
@@ -504,7 +520,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mamba1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mamba1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snake1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snake1";
 			};
 			name = Release;
 		};
@@ -545,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		444D04C42D6D7B4400DB0723 /* Build configuration list for PBXProject "mamba1" */ = {
+		444D04C42D6D7B4400DB0723 /* Build configuration list for PBXProject "snake1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				444D04EB2D6D7B4600DB0723 /* Debug */,
@@ -554,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		444D04ED2D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "mamba1" */ = {
+		444D04ED2D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "snake1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				444D04EE2D6D7B4600DB0723 /* Debug */,
@@ -563,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		444D04F02D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "mamba1Tests" */ = {
+		444D04F02D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "snake1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				444D04F12D6D7B4600DB0723 /* Debug */,
@@ -572,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		444D04F32D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "mamba1UITests" */ = {
+		444D04F32D6D7B4600DB0723 /* Build configuration list for PBXNativeTarget "snake1UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				444D04F42D6D7B4600DB0723 /* Debug */,
